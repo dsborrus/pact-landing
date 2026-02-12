@@ -51,13 +51,12 @@ export default function Home() {
       {/* Hero */}
       <section className="flex flex-col items-center justify-center text-center px-6 pt-28 pb-20 sm:pt-36 sm:pb-28">
         <h1 className="text-4xl sm:text-6xl font-bold tracking-tight max-w-2xl">
-          Keep your promises.
+          Keep your habits.
           <br />
           Together.
         </h1>
         <p className="mt-6 text-lg sm:text-xl text-foreground/60 max-w-lg leading-relaxed">
-          Form a Pact with your friends. Set a daily goal. Show up every day
-          &mdash; or face the social pressure.
+          Show up every day, or be the odd one out!
         </p>
         <div className="mt-10">
           <AppStoreButton />
@@ -68,22 +67,20 @@ export default function Home() {
       <section className="px-6 py-20 sm:py-28">
         <div className="max-w-2xl mx-auto space-y-6 text-lg sm:text-xl leading-relaxed text-foreground/80">
           <p>
-            You have that goal you keep putting off. Learn Spanish. Meditate.
-            Stretch. Journal. You tell yourself you&apos;ll do it, and
-            then&hellip; you don&apos;t. Nobody&apos;s watching, so nobody
-            cares.
+            Do you have that goal that you keep putting off? Like to practice
+            your Spanish? Meditate? Stretch? Journal? If only there was some way
+            to motivate you to hit that daily goal.
           </p>
           <p>
             <span className="text-foreground font-semibold">
-              Pact changes that.
+              Pact can help with that.
             </span>{" "}
             You and your friends &mdash; two to five of you &mdash; form a Pact.
-            Each person sets one daily goal. Every day, you check in when
-            you&apos;ve done it. If everyone completes their goal, the Pact
-            earns a point. If someone doesn&apos;t? They get called out.
+            Each person sets one daily goal, and every day, you check in when
+            you&apos;ve done it.
           </p>
           <p className="font-medium text-foreground">
-            Simple. Social. And it works.
+            Simple. Social. Sexy.
           </p>
         </div>
       </section>
@@ -141,7 +138,7 @@ export default function Home() {
           Your goals aren&apos;t going to complete themselves.
         </h2>
         <p className="mt-4 text-lg sm:text-xl text-foreground/60">
-          But your friends might make sure you do.
+          But a bit of social pressure will make sure you do.
         </p>
         <div className="mt-10">
           <AppStoreButton />
